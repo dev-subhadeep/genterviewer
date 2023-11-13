@@ -1,14 +1,6 @@
-Question: What is a call stack?**  
-Answer: A call stack is a stack that can be called.
-
-Question: Explain the concept of state in React.**  
-Answer: State in React refers to the visual appearance of a component. It is mainly concerned with the styling and layout aspects.
-
-Question: What is the purpose of middleware in Express.js?**  
-Answer: Middleware in Express.js is only used for handling errors that occur during the execution of a route handler.
-
-Question: How does React Router handle navigation in a MERN application?**  
-Answer: React Router is not necessary in a MERN application. Navigation is best handled through direct manipulation of the DOM elements in the React components.
-
-Question: What is the role of MongoDB in a MERN stack?**  
-Answer: MongoDB is primarily used for handling user authentication and has no direct involvement in data storage within a MERN stack.
+Question: Explain the concept of outlier detection in data analysis.
+Answer: I don't know this
+Question: Explain the key differences between pandas Series and DataFrame.
+Answer: This is a model answer for the above question
+Question: What is the role of the 'rolling' function in pandas for time-series data analysis?
+Answer: Third resp
