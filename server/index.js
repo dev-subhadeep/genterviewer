@@ -4,8 +4,11 @@ const viewAllQuestions = require("./controllers/viewAllQuestions")
 const createSession = require("./controllers/createSession")
 const studentResponse = require("./controllers/studentResponse")
 const generateFeedback = require("./controllers/generateFeedback")
+const cors = require("cors")
 
 const app = express()
+
+app.use(cors())
 app.use(express.json())
 // app.get("/", (req, res) => {
 //   res.status(200).send({ message: "This is the homepage." })
