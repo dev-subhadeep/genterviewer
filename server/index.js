@@ -5,6 +5,7 @@ const createSession = require("./controllers/createSession")
 const studentResponse = require("./controllers/studentResponse")
 const generateFeedback = require("./controllers/generateFeedback")
 const cors = require("cors")
+require("dotenv").config()
 
 const app = express()
 
@@ -19,7 +20,7 @@ app.post("/", createSession)
 app.patch("/", studentResponse)
 app.get("/feedback/:filename", generateFeedback)
 
-app.listen(8080, async () => {
+app.listen(process.env.PORT, async () => {
   try {
     await connection
     console.log("DB connected")
