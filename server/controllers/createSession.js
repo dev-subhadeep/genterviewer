@@ -35,13 +35,11 @@ const createSession = async (req, res) => {
         expiresIn: duration * 60,
       })
 
-      const session = await Session.create({ sessionID, questions, duration })
+      const session = await Session.create({ questions, sessionID, duration })
 
-      if (session) {
-        res.status(200).send({ questions, duration, sessionID })
-      } else {
-        res.status(500).send({ error: "Error creating session" })
-      }
+      res
+        .status(200)
+        .send({ questions, sessionID, duration, session_id: session._id })
     } else {
       res.status(400).send({ error: "No question found" })
     }
