@@ -1,13 +1,13 @@
 const fs = require("fs")
 const generate = require("../utils/generate")
-const { feedback } = require("../utils/prompts")
+const { feedback, feedbackJSON } = require("../utils/prompts")
 const Session = require("../models/session.model")
 const Question = require("../models/questions.model")
 
 const generateFeedback = async (req, res) => {
   const { filename } = req.params
   const data = fs.readFileSync(`./interviews/${filename}.txt`)
-  const prompt = `${feedback.toString()} ${data.toString()}`
+  const prompt = `${feedbackJSON.toString()} ${data.toString()}`
   try {
     const solutions = await Session.findById(filename).select({
       questions: 1,

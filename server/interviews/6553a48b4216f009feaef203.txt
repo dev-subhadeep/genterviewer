@@ -1,0 +1,10 @@
+Question: What is the role of PropTypes in a React application, and why is it beneficial?
+Answer: Don't know
+Question: Discuss the differences between the 'spread' and 'rest' operators in JavaScript.
+Answer: Don't know
+Question: Explain the significance of the 'require' function in Node.js.
+Answer: Don't know
+Question: Explain the purpose and usage of the 'useState' hook in React.
+Answer: Don't know
+Question: Discuss the distinctions between 'null' and 'undefined' in JavaScript.
+Answer: Don't know

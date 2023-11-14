@@ -1,0 +1,10 @@
+Question: Compare and contrast 'var,' 'let,' and 'const' in JavaScript for variable declaration.
+Answer: Don't know
+Question: Explain the significance of the 'require' function in Node.js.
+Answer: Don't know
+Question: Elaborate on the concept of hoisting in JavaScript.
+Answer: Don't know
+Question: What is the role of PropTypes in a React application, and why is it beneficial?
+Answer: Don't know
+Question: Discuss the differences between the 'spread' and 'rest' operators in JavaScript.
+Answer: Don't know

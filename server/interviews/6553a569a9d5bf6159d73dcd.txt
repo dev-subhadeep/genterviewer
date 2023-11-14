@@ -1,0 +1,10 @@
+Question: Compare and contrast 'var,' 'let,' and 'const' in JavaScript for variable declaration.
+Answer: Don't know
+Question: What is the role of PropTypes in a React application, and why is it beneficial?
+Answer: Don't know
+Question: Discuss the differences between the 'spread' and 'rest' operators in JavaScript.
+Answer: Don't know
+Question: Define JSX and highlight its distinctions from regular JavaScript.
+Answer: Don't know
+Question: Explain the role of npm in managing packages in a Node.js environment.
+Answer: Don't know
