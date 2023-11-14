@@ -5,7 +5,7 @@ const studentResponse = async (req, res) => {
   const { session, responses } = req.body
   try {
     const completed_session = await Session.findOneAndUpdate(
-      { session },
+      { _id: session },
       { responses },
       { new: true }
     )
