@@ -1,0 +1,6 @@
+Question: Define JSX and highlight its distinctions from regular JavaScript.
+Answer: I don't know this
+Question: Explain the functionality of the 'bind' method in JavaScript.
+Answer: This is a model answer for the above question
+Question: Explain the significance of the 'require' function in Node.js.
+Answer: Third resp

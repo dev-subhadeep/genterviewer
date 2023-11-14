@@ -1,6 +1,0 @@
-Question: Explain the concept of outlier detection in data analysis.
-Answer: I don't know this
-Question: Explain the key differences between pandas Series and DataFrame.
-Answer: This is a model answer for the above question
-Question: What is the role of the 'rolling' function in pandas for time-series data analysis?
-Answer: Third resp

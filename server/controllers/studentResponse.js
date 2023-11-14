@@ -16,11 +16,13 @@ const studentResponse = async (req, res) => {
       )
       const a = completed_session.responses[i]
       fs.appendFileSync(
-        `interviews/${completed_session._id.toString()}.txt`,
+        `./interviews/${completed_session._id.toString()}.txt`,
         `Question: ${q.question}\nAnswer: ${a}\n`
       )
     }
-    res.status(200).send({ message: "Responses added" })
+    res
+      .status(200)
+      .send({ message: "Responses added", id: completed_session._id })
   } catch (error) {
     res.status(500).send({ error: `${error}` })
   }
